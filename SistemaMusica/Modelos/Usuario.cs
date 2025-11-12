@@ -57,7 +57,7 @@
 
             foreach (var lista in ListasReproduccion)
             {
-                Console.WriteLine($"\n📂 {lista.Key} ({lista.Value.Count} canciones):");
+                Console.WriteLine($"\n {lista.Key} ({lista.Value.Count} canciones):");
 
                 if (lista.Value.Count == 0)
                 {
@@ -67,7 +67,7 @@
                 {
                     for (int i = 0; i < lista.Value.Count; i++)
                     {
-                        Console.WriteLine($"  {i + 1}. {lista.Value[i].ToString()}");
+                        Console.WriteLine($" {i + 1}. {lista.Value[i].ToString()}");
                     }
                 }
             }
